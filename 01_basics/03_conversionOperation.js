@@ -25,7 +25,31 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // "" => false
 // "hitesh" => true
 
-let someNumber = 78
+/*let someNumber = 78
 let stringValue = String(someNumber)
 console.log(typeof stringValue)
-console.log(stringValue)
+console.log(stringValue)*/
+
+////String Conversion////
+
+let value = 4
+let negvalue = -value
+//console.log(negvalue)
+
+/*console.log(2+3)
+console.log(2-3)
+console.log(2*3)
+console.log(2**3)
+console.log(2/3)
+console.log(2%3)*/
+
+let str1 = "hello"
+let str2 = " Everyone"
+
+let str3 = str1 + str2
+console.log(str3)
+
+console.log(2+"3")
+console.log("2"+3)
+console.log("2"+3+4)
+console.log(2+3+"4")
